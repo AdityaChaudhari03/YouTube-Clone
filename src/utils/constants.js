@@ -27,7 +27,7 @@ export const SEARCH_TEXT_API =
 export const LIVE_CHAT_COUNT = 250;
 
 export const SHORTS_API =
-  "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&type=video&videoDuration=short&key=" +
+  "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&type=video&videoDuration=short&key=" +
   GOOGLE_API_KEY +
   "&q=trendingshorts";
 

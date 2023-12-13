@@ -74,7 +74,7 @@ const Sidebar = () => {
           </Link>
         </li>
         <li className="py-2 flex hover:bg-gray-200 rounded-lg pl-2">
-          <Link to="/" className="flex">
+          <Link to="/shorts" className="flex">
             {" "}
             <BsPlayBtn className="mr-5 mt-1 text-xl" />
             Shorts
