@@ -6,15 +6,15 @@ The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ##Features:
-Toggle Screen
-Search using Debouncing and Caching
-Show Suggestions based on input
-Search as per suggested result
-Clear Search
-Rendering related content
-WatchPage
-Comments
-Search By tag names
+* Toggle Screen
+* Search using Debouncing and Caching
+* Show Suggestions based on input
+* Search as per suggested result
+* Clear Search
+* Rendering related content
+* WatchPage
+* Comments
+* Search By tag names
 * Light | Dark mode
 * Live chat
 * Shots
