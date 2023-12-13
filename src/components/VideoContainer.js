@@ -29,7 +29,7 @@ const VideoContainer = () => {
   ) : (
     <div>
       <TagList list={LIST} />
-      <div  className="flex flex-wrap justify-center  dark:bg-black dark:text-white ">
+      <div  className="flex flex-wrap justify-center dark:bg-black dark:text-white">
         {videos?.map((video) =>
           video?.id?.videoId ? (
             <Link

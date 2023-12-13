@@ -56,6 +56,7 @@ const Watchpage = () => {
             className="rounded-2xl"
             width="1000"
             height="500"
+            loading="lazy"
             src={"https://www.youtube.com/embed/" + searchParam.get("v")}
             title="YouTube video player"
             // frameBorder="0"

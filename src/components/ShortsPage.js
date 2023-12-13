@@ -15,10 +15,10 @@ const ShortsPage = () => {
   };
 
   return shorts.length === 0 ? (
-    'loading..'
+    "loading.."
   ) : (
     <div className="flex justify-center  ">
-      <div className="flex justify-center flex-col  gap-5">
+      <div className="flex justify-center flex-col gap-5 ">
         {shorts.map((s) => (
           <div className="flex" key={s?.id?.videoId}>
             <iframe
@@ -26,6 +26,7 @@ const ShortsPage = () => {
               width="290"
               height="490"
               autoFocus
+              loading="lazy"
               src={
                 "https://www.youtube.com/embed/" +
                 s?.id?.videoId +
