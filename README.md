@@ -16,3 +16,16 @@ Live Chat Section: Incorporated a live chat section to facilitate seamless real-
 
 ### Optimized Site Performance:
 Lazy Loading Technique: Implemented lazy loading to optimize overall site performance, ensuring efficient resource management and faster loading times.
+
+## **Technologies Used:**
+- **Frontend:**
+    - React (Vite)
+    - Redux Toolkit for State Management
+    - Headless UI
+    - Tailwind CSS
+ 
+## Steps to run 
+
+1. Run `npm i` or `npm install` to install the packages.
+2. Run `npm start` to run the app on `http://localhost:3000`.
+3. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
